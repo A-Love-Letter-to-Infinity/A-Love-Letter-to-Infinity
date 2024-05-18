@@ -1,6 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
 using Content.Shared.Alert;
 using Content.Shared.Damage;
+using Content.Shared.DeltaV.Nutrition;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Movement.Systems;
 using Content.Shared.Nutrition.Components;
@@ -91,6 +92,8 @@ public sealed class HungerSystem : EntitySystem
         if (!Resolve(uid, ref component))
             return;
         SetHunger(uid, component.CurrentHunger + amount, component);
+
+        RaiseLocalEvent(uid, new HungerModifiedEvent(amount)); // DeltaV - Hunger modified event, used for Space Ferrets. Wawa!
     }
 
     /// <summary>
@@ -253,4 +256,3 @@ public sealed class HungerSystem : EntitySystem
         }
     }
 }
-

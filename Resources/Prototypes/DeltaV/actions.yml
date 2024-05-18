@@ -1,0 +1,26 @@
+# Stupid brainrot creatures <3
+- type: entity
+  id: ActionBackflip
+  name: Backflip
+  description: DO A BACKFLIP!
+  noSpawn: true
+  components:
+  - type: InstantAction
+    useDelay: 3
+    icon:
+      sprite: DeltaV/Interface/Actions/backflip.rsi
+      state: backflip
+    event: !type:BackflipActionEvent
+    checkCanInteract: false
+
+- type: entity
+  id: ActionEepy
+  name: Eepy
+  description: Hibernate. This ends your time as a Space Ferret.
+  noSpawn: true
+  components:
+  - type: InstantAction
+    useDelay: 100
+    icon: { sprite: DeltaV/Mobs/Animals/spaceferret.rsi, state: spaceferret_eepy }
+    event: !type:EepyActionEvent
+    checkCanInteract: false

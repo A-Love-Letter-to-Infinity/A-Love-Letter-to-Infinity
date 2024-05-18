@@ -60,3 +60,17 @@
     debrisCount: 6
     distanceModifier: 13
     debrisDistanceModifier: 3
+
+- type: entity
+  parent: BaseGameRule
+  id: SpaceFerretSpawn
+  noSpawn: true
+  components:
+  - type: StationEvent
+    weight: 10
+    duration: 1
+    minimumPlayers: 10
+  - type: VentCrittersRule
+    specialEntries:
+    - id: SpawnPointGhostSpaceFerret
+      prob: 0 # Only one skug for you!

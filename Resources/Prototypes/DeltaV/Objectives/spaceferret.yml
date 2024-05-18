@@ -1,0 +1,39 @@
+- type: entity
+  abstract: true
+  parent: BaseObjective
+  id: BaseSpaceFerretObjective
+  components:
+  - type: Objective
+    difficulty: 1.5
+    issuer: spaceferret
+  - type: RoleRequirement
+    roles:
+      components:
+      - SpaceFerretRole
+
+- type: entity
+  name: Consume enough food to survive.
+  description: Eat at least 100 nutrients worth of food.
+  parent: BaseSpaceFerretObjective
+  id: ConsumeNutrientsObjective
+  noSpawn: true
+  components:
+  - type: Objective
+    icon:
+      sprite: Objects/Consumable/Food/burger.rsi
+      state: bigbite
+  - type: ConsumeNutrientsCondition
+    nutrientsRequired: 100.0
+
+- type: entity
+  name: Prepare for hibernation!
+  description: Find as much food as possible, then hibernate in a gas scrubber.
+  parent: BaseSpaceFerretObjective
+  id: HibernateObjective
+  noSpawn: true
+  components:
+  - type: Objective
+    icon:
+      sprite: DeltaV/Mobs/Animals/spaceferret.rsi
+      state: spaceferret_eepy
+  - type: HibernateCondition
