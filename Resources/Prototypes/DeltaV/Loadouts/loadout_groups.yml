@@ -178,6 +178,31 @@
   loadouts:
   - ProsecutorNeck
 
+# Command
+## Admin Assistant
+
+- type: loadoutGroup
+  id: AdminAssistantJumpsuit
+  name: loadout-group-admin-assistant-jumpsuit
+  loadouts:
+  - AdminAssistantJumpsuit
+  - AdminAssistantJumpskirt
+
+- type: loadoutGroup
+  id: AdminAssistantOuterClothing
+  name: loadout-group-admin-assistant-outerclothing
+  minLimit: 0
+  loadouts:
+  - CaptainWintercoat
+
+- type: loadoutGroup
+  id: AdminAssistantBack
+  name: loadout-group-admin-assistant-back
+  loadouts:
+  - AdminAssistantBackpack
+  - AdminAssistantSatchel
+  - AdminAssistantDuffel
+
 - type: loadoutGroup
   id: Scarfs
   name: loadout-group-scarfs

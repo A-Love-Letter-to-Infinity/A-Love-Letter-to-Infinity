@@ -19,3 +19,15 @@
     contents:
     - id: BoxSurvivalMedical
     - id: RubberStampPsychologist
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelAdminAssistantFilled
+  name: administrative assistant's satchel
+  description: Its a satchel build for carrying paper.
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvival
+      - id: RubberStampAdminAssistant

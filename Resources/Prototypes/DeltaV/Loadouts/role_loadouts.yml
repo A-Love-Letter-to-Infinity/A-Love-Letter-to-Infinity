@@ -23,6 +23,14 @@
   - SecurityOuterClothing
   - MedicalGloves
   - Trinkets
+
+# Command
+- type: roleLoadout
+  id: JobAdministrativeAssistant
+  groups:
+  - AdminAssistantJumpsuit
+  - AdminAssistantBack
+  - AdminAssistantOuterClothing
   
 # Justice
 - type: roleLoadout

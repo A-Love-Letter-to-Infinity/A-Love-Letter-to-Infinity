@@ -7,6 +7,13 @@
 
 - type: statusIcon
   parent: JobIcon
+  id: JobIconAdminAssitant
+  icon:
+    sprite: /Textures/DeltaV/Interface/Misc/job_icons.rsi
+    state: AdminAssistant
+    
+- type: statusIcon
+  parent: JobIcon
   id: JobIconChiefJustice
   icon:
     sprite: /Textures/DeltaV/Interface/Misc/job_icons.rsi
