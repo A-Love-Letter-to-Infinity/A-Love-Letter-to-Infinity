@@ -73,6 +73,17 @@
   - UplinkImplants
 
 - type: listing
+  id: UplinkPistolWaffle
+  name: uplink-pistol-waffle-name
+  description: uplink-pistol-waffle-desc
+  icon: { sprite: Objects/Weapons/Guns/Battery/waffle.rsi, state: icon }
+  productEntity: WeaponLaserWaffle
+  cost:
+    Telecrystal: 8
+  categories:
+  - UplinkWeaponry
+
+- type: listing
   id: UplinkDoorjack
   name: uplink-doorjack-name
   description: uplink-doorjack-desc
@@ -81,3 +92,4 @@
     Telecrystal: 6
   categories:
   - UplinkDisruption
+
