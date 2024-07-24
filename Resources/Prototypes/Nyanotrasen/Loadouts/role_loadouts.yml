@@ -3,6 +3,7 @@
   id: JobMailCarrier
   groups:
   - MailCarrierHead
+  - Scarfs # DeltaVs
   - MailCarrierJumpsuit
   - CommonBackpack
   - CargoTechnicianShoes
@@ -13,6 +14,7 @@
   id: JobForensicMantis
   groups:
   - MantisHead
+  - Scarfs # DeltaV
   - MantisJumpsuit
   - MantisBackpack
   - MantisOuterClothing
@@ -26,6 +28,7 @@
   groups:
   - PrisonGuardHead
   - SecurityNeck # DeltaV
+  - Scarfs # DeltaVs
   - PrisonGuardJumpsuit
   - SecurityBackpack
   - SecurityOuterClothing
@@ -44,6 +47,7 @@
 - type: roleLoadout
   id: JobMartialArtist
   groups:
+  - Scarfs # DeltaV
   - MartialArtistJumpsuit
   - MartialArtistBelt
   - MartialArtistShoes
