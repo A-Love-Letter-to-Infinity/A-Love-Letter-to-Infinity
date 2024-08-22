@@ -1319,6 +1319,7 @@
         - SheetUranium30
         - IngotGold30
         - IngotSilver30
+        - IngotLead30
         - MaterialBananium10
         - MaterialDiamond
     - type: MaterialStorageMagnetPickup # Delta V - Summary: Adds magnet pull from Frontier
@@ -1351,6 +1352,7 @@
       - SheetRUGlass30
       - IngotGold30
       - IngotSilver30
+      - IngotLead30
       - MaterialBananium10
       - MaterialDiamond
 
