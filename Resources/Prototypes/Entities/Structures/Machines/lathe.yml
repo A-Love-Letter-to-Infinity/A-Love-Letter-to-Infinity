@@ -371,6 +371,7 @@
       - RCDAmmo
       - Fulton
       - FultonBeacon
+      - PowerCellHyper
       # End DeltaV additions
   - type: EmagLatheRecipes
     emagDynamicRecipes:
