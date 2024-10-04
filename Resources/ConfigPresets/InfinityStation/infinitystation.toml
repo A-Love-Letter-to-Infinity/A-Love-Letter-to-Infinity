@@ -1,0 +1,49 @@
+[game]
+hostname           = "[EN][MRP] A Love Letter to Infinity"
+desc               = "A medium roleplay fork based around the mysterious Noösphere, featuring unique content, custom maps, new species and a revamped science department."
+lobbyenabled       = true
+lobbyduration      = 240
+round_end_pacifist = true
+contraband_examine = false
+soft_max_players = 80
+
+[shuttle]
+emergency_early_launch_allowed = true
+
+[infolinks]
+discord    = "https://discord.gg/NCVSM2yjky"
+github     = "https://github.com/A-Love-Letter-to-Infinity/Infinity-Station-14"
+#website    = ""
+#wiki       = ""
+#patreon    = ""
+#bug_report = ""
+#forum      = ""
+appeal     = "https://discord.gg/NCVSM2yjky"
+
+[net]
+max_connections = 1024
+tickrate = 30
+
+[vote]
+restart_required_ratio = 0.7
+
+[netres]
+limit    = 10.0
+
+[admin]
+see_own_notes   = true
+deadmin_on_join = true
+alert.min_players_sharing_connection = 2
+
+[server]
+id         = "infinitystation"
+
+[ic]
+flavor_text = true
+
+[ahelp]
+admin_prefix = false
+admin_prefix_webhook = false
+
+[hub]
+tags = "lang:en-US,region:am_n_e,rp:med,no_tag_infer"
