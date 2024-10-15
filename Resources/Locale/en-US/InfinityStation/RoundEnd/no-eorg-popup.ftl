@@ -1,6 +1,6 @@
 no-eorg-popup-title = A Love Letter to Infinity
 no-eorg-popup-label = Welcome to the End of Round
-no-eorg-popup-message = [bold]End-of-round grief (EORG)[/bold] is not allowed at a Love Letter to Infinity. Please stay in character until the lobby screen appears to maintain an immersive environment for everyone. Thank you for respecting the community rules!
+no-eorg-popup-message = [bold]End-of-round grief (EORG)[/bold] is not allowed at A Love Letter to Infinity. Please stay in character until the lobby screen appears to maintain an immersive environment for everyone. Thank you for respecting the community rules!
 no-eorg-popup-rule = [bold][color=#a4885c]Rule G3: Do not grief or self-antagonize [/color][/bold]
 no-eorg-popup-rule-text = This includes attacking, destroying, polluting, and severely injuring without reason both at and on the way to Central Command. Remember that you are playing a character.
 no-eorg-popup-close-button = Sounds good!
