@@ -29,13 +29,13 @@ CHANGELOG_RSS_KEY = os.environ.get("CHANGELOG_RSS_KEY")
 
 # Change these to suit your server settings
 # https://docs.fabfile.org/en/stable/getting-started.html#run-commands-via-connections-and-run
-SSH_HOST = "game.infinitystation14.com"
+SSH_HOST = "infinitystation14.com"
 SSH_USER = "changelog-rss"
 SSH_PORT = 22
-RSS_FILE = "changelog.xml"
+RSS_FILE = "uploads/changelog.xml"
 XSL_FILE = "stylesheet.xsl"
 HOST_KEYS = [
-    "AAAAC3NzaC1lZDI1NTE5AAAAICy7NpKcKBGZL5XgxyXMd8RQWu60w0cJ7oozETvlTdPz"
+    "AAAAC3NzaC1lZDI1NTE5AAAAIEt/I5A9SjVh2z8PFSvG/2zvTANbhW1/AeHeELrmX/jd"
 ]
 
 # RSS feed parameters, change these
@@ -46,7 +46,7 @@ FEED_LANGUAGE    = "en-US"
 FEED_GUID_PREFIX = "ss14-changelog-infinity-"
 FEED_URL         = "https://infinitystation14.com/changelog.xml"
 
-CHANGELOG_FILE = "Resources/Changelog/ChangelogInfinity.yml"
+CHANGELOG_FILE = "Resources/Changelog/InfinityChangelog.yml"
 
 TYPES_TO_EMOJI = {
     "Fix":    "🐛",
