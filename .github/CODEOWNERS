@@ -1,20 +1,20 @@
 # Last match in file takes precedence.
 
 # C# code
-/Content.*/ @DeltaV-Station/maintainers
+/Content.*/ @A-Love-Letter-to-Infinity/maintainers
 
 # YML files
-/Resources/*.yml @DeltaV-Station/yaml-maintainers
-/Resources/**/*.yml @DeltaV-Station/yaml-maintainers
+/Resources/*.yml @A-Love-Letter-to-Infinity/yaml-maintainers @A-Love-Letter-to-Infinity/game-directors
+/Resources/**/*.yml @A-Love-Letter-to-Infinity/yaml-maintainers @A-Love-Letter-to-Infinity/game-directors
 
 # Sprites
-/Resources/Textures/ @IamVelcroboy
+#/Resources/Textures/ @IamVelcroboy
 
 # Lobby art and music - automatically direction issues since its immediately visible to players
-/Resources/Audio/Lobby/ @DeltaV-Station/game-directors
-/Resources/Textures/LobbyScreens/ @DeltaV-Station/game-directors
+/Resources/Audio/Lobby/ @A-Love-Letter-to-Infinity/game-directors
+/Resources/Textures/LobbyScreens/ @A-Love-Letter-to-Infinity/game-directors
 
 # Maps
-/Resources/Maps/ @DeltaV-Station/maptainers
-/Resources/Prototypes/Maps/ @DeltaV-Station/maptainers
-/Content.IntegrationTests/Tests/PostMapInitTest.cs @DeltaV-Station/maptainers
+/Resources/Maps/ @A-Love-Letter-to-Infinity/maptainers @A-Love-Letter-to-Infinity/game-directors
+/Resources/Prototypes/Maps/ @A-Love-Letter-to-Infinity/maptainers @A-Love-Letter-to-Infinity/game-directors
+/Content.IntegrationTests/Tests/PostMapInitTest.cs @A-Love-Letter-to-Infinity/maptainers @A-Love-Letter-to-Infinity/game-directors
