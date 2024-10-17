@@ -1,7 +1,6 @@
 The files below are licensed under CC-BY-SA 4.0 by the author who won't be found, but is Lyndomen
 
 icon.ico
-allti.xcf
 icon/icon-16x16.png
 icon/icon-24x24.png
 icon/icon-32x32.png
