@@ -1,7 +1,7 @@
 <p align="center"> <img alt="Infinity Station 14 Logo" width="128" height="128" src="https://raw.githubusercontent.com/DeltaV-Station/Delta-v/master/Resources/Textures/Logo/logo.png" /></p>
 <!---<p align="center"> <img alt="Space Station 14 Delta-V Banner" width="512" height="126" src="https://raw.githubusercontent.com/DeltaV-Station/Delta-v/master/Resources/Textures/Logo/banner.png" /></p>-->
 
-Infinity Station 14 is a fork of [Delta-V](https://github.com/DeltaV-Station/Delta-v), embracing a mixture of classic SS13 chaos and experimentation only possible with the new engine.
+Infinity Station 14 is a fork of [Delta-V](https://github.com/DeltaV-Station/Delta-v), seeking to redefine the MRP standard, and develop custom content in new directions.
 
 Space Station 14 is a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), a homegrown engine written in C#.
 
@@ -23,9 +23,8 @@ The [docs site](https://docs.spacestation14.io/) has documentation on SS14s cont
 
 ## Contributing
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help. We've got a [list of issues](https://github.com/DeltaV-Station/Delta-v/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!
+We are happy to accept contributions from anybody. Get in Discord if you want to help. We've got a [list of issues](https://github.com/A-Love-Letter-to-Infinity/Infinity-Station-14/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!
 
-We are currently accepting translations of the game on our main repository. If you would like to translate the game into another language check the #localization channel in our [Discord](https://go.delta-v.org/AtDxv)
 
 If you make any contributions, please make sure to read the markers section in [MARKERS.md](https://github.com/DeltaV-Station/Delta-v/blob/master/MARKERS.md)
 Any changes made to files belonging to our upstream should be properly marked in accordance to what is specified there.
